@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupCarMgr", "SetupCarMgr\SetupCarMgr.vdproj", "{32BA5F0D-C2A5-4D56-9F54-B35053C634BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32BA5F0D-C2A5-4D56-9F54-B35053C634BD}.Debug|Default.ActiveCfg = Debug
+		{32BA5F0D-C2A5-4D56-9F54-B35053C634BD}.Debug|Default.Build.0 = Debug
+		{32BA5F0D-C2A5-4D56-9F54-B35053C634BD}.Release|Default.ActiveCfg = Release
+		{32BA5F0D-C2A5-4D56-9F54-B35053C634BD}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA4E66B8-7CE6-4E93-B59C-3B8D98ADC427}
+	EndGlobalSection
+EndGlobal
