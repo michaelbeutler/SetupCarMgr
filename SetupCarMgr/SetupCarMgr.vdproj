@@ -21,31 +21,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0E71201E9B3249AE92D2BDAC5062F737"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3C9DFFB5438F4DC5AE5A541B07904D36"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4BA08CE339C7476598C69CD94C6AADD2"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_4CF9C7E670EF002326E75EFD46E2F0C7"
-        "OwnerKey" = "8:_79419E30282F42949EB34AECE15E39E8"
+        "OwnerKey" = "8:_BBFDB88034D4499AB9B2A35C9E3C610D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_5273DB0095DF4F61826D2EA589CE7628"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_597DDEB3158140FB8D4F42D1332A0246"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -57,13 +45,25 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_79419E30282F42949EB34AECE15E39E8"
+        "MsmKey" = "8:_96378500444345C4ABB156EF6EE015C8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_AC0DFD32971D4D27A163885E5DE624A7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AC5C1AAEB95E4987B4AB5F588D995CDF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BBFDB88034D4499AB9B2A35C9E3C610D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -76,13 +76,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4BA08CE339C7476598C69CD94C6AADD2"
+        "OwnerKey" = "8:_AC5C1AAEB95E4987B4AB5F588D995CDF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_79419E30282F42949EB34AECE15E39E8"
+        "OwnerKey" = "8:_BBFDB88034D4499AB9B2A35C9E3C610D"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -110,6 +110,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
         "Release"
@@ -134,6 +142,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -170,77 +186,6 @@
             "TargetName" = "8:demo_data.sql"
             "Tag" = "8:"
             "Folder" = "8:_BD22E96644A74F419D17CD58DC2BF95A"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0E71201E9B3249AE92D2BDAC5062F737"
-            {
-            "SourcePath" = "8:..\\..\\PorscheMgr\\CarMgr\\bin\\Debug\\CarMgr.exe.config"
-            "TargetName" = "8:CarMgr.exe.config"
-            "Tag" = "8:"
-            "Folder" = "8:_B8D543F3C88D43ABAD8B697F8010D812"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3C9DFFB5438F4DC5AE5A541B07904D36"
-            {
-            "SourcePath" = "8:..\\..\\PorscheMgr\\CarMgr\\bin\\Debug\\MySql.Data.xml"
-            "TargetName" = "8:MySql.Data.xml"
-            "Tag" = "8:"
-            "Folder" = "8:_B8D543F3C88D43ABAD8B697F8010D812"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4BA08CE339C7476598C69CD94C6AADD2"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_4BA08CE339C7476598C69CD94C6AADD2"
-                    {
-                    "Name" = "8:MySql.Data.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\..\\PorscheMgr\\CarMgr\\bin\\Debug\\MySql.Data.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_B8D543F3C88D43ABAD8B697F8010D812"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -306,6 +251,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_597DDEB3158140FB8D4F42D1332A0246"
+            {
+            "SourcePath" = "8:..\\..\\PorscheMgr\\CarMgr\\bin\\Debug\\MySql.Data.xml"
+            "TargetName" = "8:MySql.Data.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_B8D543F3C88D43ABAD8B697F8010D812"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6F2C806BF13C48809A2B7871E762ACD8"
             {
             "SourcePath" = "8:..\\..\\PorscheMgr\\CarMgr\\images\\icon.ico"
@@ -326,21 +291,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_79419E30282F42949EB34AECE15E39E8"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_96378500444345C4ABB156EF6EE015C8"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:CarMgr, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_79419E30282F42949EB34AECE15E39E8"
-                    {
-                    "Name" = "8:CarMgr.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\..\\PorscheMgr\\CarMgr\\bin\\Debug\\CarMgr.exe"
-            "TargetName" = "8:"
+            "SourcePath" = "8:..\\..\\PorscheMgr\\CarMgr\\bin\\Debug\\CarMgr.exe.config"
+            "TargetName" = "8:CarMgr.exe.config"
             "Tag" = "8:"
             "Folder" = "8:_B8D543F3C88D43ABAD8B697F8010D812"
             "Condition" = "8:"
@@ -363,6 +317,68 @@
             "TargetName" = "8:carmgr_db.sql"
             "Tag" = "8:"
             "Folder" = "8:_BD22E96644A74F419D17CD58DC2BF95A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AC5C1AAEB95E4987B4AB5F588D995CDF"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_AC5C1AAEB95E4987B4AB5F588D995CDF"
+                    {
+                    "Name" = "8:MySql.Data.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\..\\PorscheMgr\\CarMgr\\bin\\Debug\\MySql.Data.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_B8D543F3C88D43ABAD8B697F8010D812"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BBFDB88034D4499AB9B2A35C9E3C610D"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:CarMgr, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_BBFDB88034D4499AB9B2A35C9E3C610D"
+                    {
+                    "Name" = "8:CarMgr.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\..\\PorscheMgr\\CarMgr\\bin\\Debug\\CarMgr.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_B8D543F3C88D43ABAD8B697F8010D812"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -622,7 +638,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A0063A8E86B74B1DB26BB7ACE7D16989"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_77A028A81030467D94C43E58FCE616F8"
             {
             "Name" = "8:Car Manager"
             "Arguments" = "8:"
@@ -630,7 +646,21 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:"
+            "Target" = "8:_BBFDB88034D4499AB9B2A35C9E3C610D"
+            "Folder" = "8:_3FA6715374E543AFBA47FAC1CE03C3A9"
+            "WorkingFolder" = "8:_B8D543F3C88D43ABAD8B697F8010D812"
+            "Icon" = "8:_6F2C806BF13C48809A2B7871E762ACD8"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DF40AC8067F949A9BF4413A761609818"
+            {
+            "Name" = "8:Car Manager"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_BBFDB88034D4499AB9B2A35C9E3C610D"
             "Folder" = "8:_5AEF7E3EA41E495CBD3DE02A4E4E4450"
             "WorkingFolder" = "8:_B8D543F3C88D43ABAD8B697F8010D812"
             "Icon" = "8:_6F2C806BF13C48809A2B7871E762ACD8"
